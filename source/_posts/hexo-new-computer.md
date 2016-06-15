@@ -15,13 +15,13 @@ categories: 自建博客
 5. 依次执行git add .、git commit -m "..."、git push origin hexo提交网站相关的文件。
 6. 执行hexo clean & hexo g & hexo clean & hexo deploy 生成网站并部署到GitHub上。
 
-这样一来，在GitHub上的http://chyin.github.io仓库就有两个分支，一个hexo分支用来存放博客的原始文件，一个master分支用来存放生成的静态网页。
+这样一来，在GitHub上的chyin.github.io仓库就有两个分支，一个hexo分支用来存放博客的原始文件，一个master分支用来存放生成的静态网页。
 
 ## 日常使用中的设置
 每次修改了配置文件，或者更新了新的博客内容，要先在github上提交本次修改，然后再提交hexo生成发布。此顺序可尽量避免各种意外情况。
 ## 在新机器上配置hexo，并同步设置
 1. 使用git clone git@github.com:chyin/chyin.github.io.git 拷贝仓库.
-2. 安装node.js，并在本地新拷贝的http://chyin.github.io文件夹下通过Git bash依次执行下列指令：npm install -g hexo-cli、npm install、npm install hexo-deployer-git。此时已经不需要hexo init这条指令，如果hexo init会使之前已经克隆下来的 .git消失。
+2. 安装node.js，并在本地新拷贝的chyin.github.io文件夹下通过Git bash依次执行下列指令：npm install -g hexo-cli、npm install、npm install hexo-deployer-git。此时已经不需要hexo init这条指令，如果hexo init会使之前已经克隆下来的 .git消失。
 
 ## 参考文档
 0. [hexo官方文档](https://hexo.io/docs/)
