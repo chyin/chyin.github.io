@@ -80,4 +80,8 @@ deploy:
 # disqus_shortname: chyin
 
 # duoshuo comment setting
+## using next theme, no need to edit theme document
 duoshuo_shortname: chyin
+
+# baidu analytics
+baidu_analytics: 7bcb136b7c0eaf5ffe5cc1f0f5a5b759
