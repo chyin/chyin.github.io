@@ -76,4 +76,8 @@ deploy:
   ## 这里填写项目的地址 git@github.com:Git用户名/Git用户名.github.io.git 参照上面
   branch: master    ## 分支选择 master
 
-disqus_shortname: chyin
+# disqus comment setting
+# disqus_shortname: chyin
+
+# duoshuo comment setting
+duoshuo_shortname: chyin
